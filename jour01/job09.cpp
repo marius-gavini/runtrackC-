@@ -16,7 +16,7 @@ int main(){
     std::cin >> b;
     num.push_back(b);
 
-    std::cout << "Enter the second number : ";
+    std::cout << "Enter the third number : ";
     std::cin >> c;
     num.push_back(c);
     
