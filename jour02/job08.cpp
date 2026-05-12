@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Entrez un premier nombre entier : ";
+    cin >> a;
+    
+    do {
+        cout << "Entrez un second nombre entier (doit être superieur au premier): ";
+        cin >> b;
+        if (b <= a){
+            cout << "Erreur, le second doit être superieur au premier";
+        }
+    } while (b <= a);
+    
+    while (a <= b)
+    {
+        cout << a << endl;
+        a++;
+    }
+    return 0;
+}
